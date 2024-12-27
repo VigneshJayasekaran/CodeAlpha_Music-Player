@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('pr2.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.music-player {
+    width: 400px;
+    background-color: #02020260;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgb(234, 0, 255);
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff0037;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #1eff00;
+}
+
+#current-music {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
